@@ -12,16 +12,16 @@
 }
 #stoneimage{
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 48.5%;
-background-color:white;
+
 }
 #stoneimage2{
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 45%;
   transform: rotate(-90deg);
-  background-color:white;
+ 
 }
 .selectoptions img{
   padding-top: 5px;
