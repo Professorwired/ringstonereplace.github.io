@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  padding: 50px;
+  text-align: center;
+}
+#Ring{
+  z-index: -1;
+}
+#stoneimage{
+  position: absolute;
+  top: 35%;
+  left: 48.5%;
+}
+#stoneimage2{
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  transform: rotate(-90deg);
+}
+.selectoptions img{
+  padding-top: 5px;
+  border-collapse: collapse;
+box-shadow: 1px 1px  1px rgba(0, 0, 0, 0.485);
+  
+
+}
+.optioncontain{
+  margin-top:30px;
+  display: felx;
+  
+}
+.selectoptions{
+  top:10px;
+}
