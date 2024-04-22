@@ -11,12 +11,12 @@
   z-index: -1;
 }
 #stoneimage{
-  position: absolute;
+  position: relative;
   top: 40%;
   left: 48.5%;
 }
 #stoneimage2{
-  position: absolute;
+  position: relative;
   top: 40%;
   left: 45%;
   transform: rotate(-90deg);
