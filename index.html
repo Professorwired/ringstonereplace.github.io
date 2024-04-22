@@ -10,7 +10,7 @@
 
 <body>
     <div class="container">
-        <h2>Build Your Own Ring</h2>
+        <h2>Build Your Own Ring</h2><br>
         <div class="imagecontainer">
             <div>
                 <img id="stoneimage" src="" alt="" width="6%">
@@ -42,12 +42,11 @@
     </div>
     <script>
         function ChangeImage(fileName) {
-            const img = document.querySelector("#stoneimage");
-            img.setAttribute('src', fileName);
+            document.getElementById("stoneimage").src = fileName;
         }
+
         function ChangeImagesec(fileName) {
-            const img = document.querySelector("#stoneimage2");
-            img.setAttribute('src', fileName);
+            document.getElementById("stoneimage2").src = fileName;
         }
     </script>
 </body>
