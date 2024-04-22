@@ -1,0 +1,69 @@
+# ringstonereplace.github.io
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ring with Stones</title>
+    <style>
+        /* Add your CSS styling here */
+        #ringImage {
+            width: 200px;
+            height: 200px;
+            /* Add any other styling you want */
+        }
+
+        .item {
+            width: 20px;
+            /* Add more styling if needed */
+    
+        }
+        
+        
+        #Ring{
+            position: absolute;
+            top:5px;
+            z-index: -1;
+        }
+        .maincontainer{
+            position: absolute;
+            top:11px;
+            left:18px;
+                }
+                .btnselect{
+                    position: relative;
+                    top: 50px;
+                    left: 5px;
+                }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="/src/ring.jpg" id="Ring" width="50px">
+    </div>
+    <div class="maincontainer">
+        <div class="container">
+            <img id="stoneimage" src="" alt="" width="30px">
+        </div>
+
+    </div>
+
+    <div class="btnselect">
+        <img src="/src/1.png" alt="diamond" class="item" onclick="ChangeImage('/src/1.png')">
+        <img src="/src/2.png" alt="ruby" class="item" onclick="ChangeImage('/src/2.png')">
+        <img src="/src/3.png" alt="pearl" class="item" onclick="ChangeImage('/src/3.png')">
+        <img src="/src/4.png" alt="pearl" class="item" onclick="ChangeImage('/src/4.png')">
+        <!-- Add more stone images -->
+    </div>
+   
+    <script>
+        function ChangeImage(fileName) {
+            const img = document.querySelector("#stoneimage");
+            img.setAttribute('src', fileName);
+        }
+    </script>
+</body>
+
+</html>
