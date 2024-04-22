@@ -12,15 +12,15 @@
 }
 #stoneimage{
      position: absolute;
-    top: 36%;
+    top: 35.8%;
     left: 48.5%;
 
 }
 #stoneimage2{
       position: absolute;
-    top: 36%;
-    left: 45%;
-  transform: rotate(-90deg);
+    top: 35.3%;
+    left: 45.5%;
+  transform: rotate(90deg);
  
 }
 .selectoptions img{
@@ -37,7 +37,4 @@ box-shadow: 1px 1px  1px rgba(0, 0, 0, 0.485);
 }
 .selectoptions{
   top:10px;
-}
-.replace{
-margin-top:300px;
 }
