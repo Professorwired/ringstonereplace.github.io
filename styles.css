@@ -25,7 +25,7 @@
     display: block;
     width: 55%;
     margin: 10px auto;
-box-shadow:5px 5px 50px black;
+box-shadow:1px 1px 300px black;
 }
 
 #stoneimage1,#stoneimage2 {
@@ -34,12 +34,12 @@ box-shadow:5px 5px 50px black;
 
 #stoneimage1 {
     position: absolute;
-    top: 47%;
+    top: 46%;
     left: 41%;
 }
 #stoneimage2 {
     position: absolute;
-    top: 48%;
+    top: 46%;
     left: 51.3%;
 }
 .selectoptions img{
