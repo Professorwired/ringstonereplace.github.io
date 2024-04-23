@@ -43,9 +43,9 @@ box-shadow: 2px 2px 3px #3030305a;
     left: 51%;
 }
 .selectoptions img{
-  padding-top: 5px;
-  border-collapse: collapse;
-box-shadow: 1px 1px  1px rgba(0, 0, 0, 0.485);
+    padding: 2%;
+    border-collapse: collapse;
+    border: 1px #303030a5 solid;
   
 
 }
