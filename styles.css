@@ -25,22 +25,22 @@
     display: block;
     width: 55%;
     margin: 10px auto;
-box-shadow:1px 1px 130px black;
+box-shadow: 2px 2px 3px #3030305a;
 }
 
 #stoneimage1,#stoneimage2 {
-    width: 5%;
+    width: 8%;
 }
 
 #stoneimage1 {
     position: absolute;
     top: 45%;
-    left: 40%;
+    left: 41%;
 }
 #stoneimage2 {
     position: absolute;
-    top: 45%;
-    left: 51.3%;
+    top: 46%;
+    left: 51%;
 }
 .selectoptions img{
   padding-top: 5px;
