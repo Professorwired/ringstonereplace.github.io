@@ -24,27 +24,28 @@ text-align:center;
 
 #ring {
     display: block;
-    width: 55%;
+    width: 150%;
     margin: 10px auto;
 box-shadow: 2px 2px 3px #3030305a;
 }
 
 #stoneimage1,#stoneimage2 {
-    width: 8%;
+    width: 26%;
 }
 
 #stoneimage1 {
     position: absolute;
     top: 45%;
-    left: 41%;
+    left: 48%;
 }
 #stoneimage2 {
     position: absolute;
     top: 46%;
-    left: 51%;
+    left: 75%;
 }
 .selectoptions img{
-    padding: 2%;
+    padding: 0%;
+    width: 29px;
     border-collapse: collapse;
     border: 1px #303030a5 solid;
   
